@@ -12,7 +12,7 @@ Whilst you are there you can view the "CapEER" diagram!
 
 Once completed you can the run the MySQL "TractortekScript". It will create the rest of the relevant tables.
 
-To full experience the capstone at this point you may need to download a ODBC driver to link the OLTP table to excel.
+To fully experience the capstone at this point you may need to download a ODBC driver to link the OLTP table to excel.
 Here is a helpful video: https://www.youtube.com/watch?v=qK9gPEF606U
 
 Once this is completed you are fully operational and can use/view all the features in the Capstone.
