@@ -4,7 +4,7 @@ To begin you must create a Flask venv and activate it.
 Once completed go to the folder directory containing "venv_requirements.txt" and run a pip install to install all necessary modules.
 Then using that environment you must run "create_db.py".
 
-You can now view and use the environment!
+You can now view and use the TractorTEK App!
 
 For MySQL Workbench you must go to the tractortek schema and use the import wizard to import specific table csv's.
 The csv's are: hist_prod_sales.csv, hist_serv_sales.csv, prod_details.csv, sales_team.csv, week_breakdown.csv.
