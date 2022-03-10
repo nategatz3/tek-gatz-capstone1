@@ -1,0 +1,7 @@
+FLASK_APP = tractortek_dash.py
+FLASK_VENV = myflaskenv
+(You can make your own venv and pip install the env_requirements.txt file via the terminal. Windows Ex:)
+	
+	(conda create -n myflaskenv python=3.6)
+		(activate myflaskenv)
+	(pip install -r env_requirements.txt)

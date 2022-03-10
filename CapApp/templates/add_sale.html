@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="bg-light p-5 rounded-lg m-3">
+  <h1>Weekly Sales</h1>
+    <p>Please confirm weekly sales with the form below: </p>
+    <form method="POST">
+        {# This hidden_tag is a CSRF security feature. #}
+        {{ form.hidden_tag() }}
+        {{ form.emp_id.label }} {{ form.emp_id() }}
+        <br><br>
+        {{ form.prod_code.label }} {{ form.prod_code() }}
+        {{ form.prod_quantity.label }} {{ form.prod_quantity() }}
+        <br><br>
+        {{ form.serv_plan.label }} {{ form.serv_plan() }}
+        {{ form.serv_quantity.label }} {{ form.serv_quantity() }}
+        <br><br>
+        {{ form.the_week.label }} {{ form.the_week() }}
+        {{ form.the_year.label }} {{ form.the_year() }}
+        <br><br>
+        {{ form.submit() }}
+    </form>
+</div>
+{% endblock %}
